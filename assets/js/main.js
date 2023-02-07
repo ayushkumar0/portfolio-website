@@ -18,7 +18,7 @@ let modal = function (modalClick) {
 };
 
 modalBtn.forEach((mb, i) => {
-  mb.addEventListener("Click", () => {
+  mb.addEventListener("click", () => {
     modal(i);
   });
 });
@@ -26,7 +26,7 @@ modalBtn.forEach((mb, i) => {
 modalClose.forEach((mc) => {
   mc.addEventListener("click", () => {
     modalViews.forEach((mv) => {
-      mv.classList.remove("active=modal");
+      mv.classList.remove("active-modal");
     });
   });
 });
