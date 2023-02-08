@@ -59,6 +59,7 @@
             </li>
           </ul>
         </div>
+
         <!-- theme change button  -->
         <i class="bx bx-moon change-theme" id="theme-button"></i>
       </nav>
@@ -96,15 +97,21 @@
           <div class="home__social">
             <a
               href="https://www.linkedin.com/in/ayush-kumar-55a425202/"
+              target="_blank"
               class="home__social-link"
             >
               <i class="bx bxl-linkedin-square"></i>
             </a>
-            <a href="https://github.com/ayushkumar0" class="home__social-link">
+            <a
+              href="https://github.com/ayushkumar0"
+              target="_blank"
+              class="home__social-link"
+            >
               <i class="bx bxl-github"></i>
             </a>
             <a
               href="https://dribbble.com/ayush_kumar_03"
+              target="_blank"
               class="home__social-link"
             >
               <i class="bx bxl-dribbble"></i>
@@ -112,7 +119,7 @@
           </div>
 
           <a href="#about" class="home__scroll">
-            <i class="bx bx-mouse home__scroll-icon"></i>
+            <!-- <i class="bx bx-mouse home__scroll-icon"></i> -->
             <span class="home__scroll-name">Scroll Down</span>
           </a>
         </div>
@@ -124,7 +131,7 @@
         <h2 class="section__title">About Me</h2>
 
         <div class="about__container container grid">
-          <img src="assets/img/about.jpg" alt="" class="about__img" />
+          <img src="assets/img/MyImage.jpg" alt="" class="about__img" />
 
           <div class="about__data">
             <div class="about__info">
@@ -411,7 +418,7 @@
             </div>
           </div>
 
-          <div class="services__card">
+          <!-- <div class="services__card">
             <h3 class="services__title">
               Ui/Ux <br />
               Designer
@@ -469,7 +476,7 @@
                 </ul>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
 
@@ -487,7 +494,7 @@
 
         <div class="work__container continer grid">
           <div class="work__card mix web">
-            <img src="assets/img/WebDevImg.png" alt="" class="work__img" />
+            <img src="assets/img/WebDevImg.jpg" alt="" class="work__img" />
 
             <h3 class="work__title">Web design</h3>
             <a href="#" class="work__button">
@@ -514,7 +521,7 @@
           </div>
 
           <div class="work__card mix web">
-            <img src="assets/img/WebDevImg.png" alt="" class="work__img" />
+            <img src="assets/img/WebDevImg.jpg" alt="" class="work__img" />
 
             <h3 class="work__title">Web design</h3>
             <a href="#" class="work__button">
@@ -619,13 +626,47 @@
     </main>
 
     <!--=============== FOOTER ===============-->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Ayush</h1>
+
+        <ul class="footer__list">
+          <li>
+            <a href="#about" class="footer__link">About</a>
+          </li>
+          <li>
+            <a href="#work" class="footer__link">Project</a>
+          </li>
+        </ul>
+
+        <ul class="footer__socail">
+          <a
+            href="https://www.instagram.com/ayush_cloudi/"
+            target="_blank"
+            class="footer__socail-link"
+          >
+            <i class="bx bxl-instagram"></i>
+          </a>
+
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            class="footer__socail-link"
+          >
+            <i class="bx bxl-twitter"></i>
+          </a>
+        </ul>
+        <span class="footer__copy"
+          >&#169; Ayush Kumar. All rigths reserved</span
+        >
+      </div>
+    </footer>
 
     <!--=============== SCROLLREVEAL ===============-->
-    <script src=""></script>
+    <script src="./assets/js/scrollreveal.min.js"></script>
 
     <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--=============== MIXITUP FILTER ===============-->
     <script src="assets/js/mixitup.min.js"></script>
